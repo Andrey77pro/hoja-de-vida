@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Andrey Alexander Paez Henao</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600;700&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+
+  <div class="cv" id="cvDoc">
+
+    <aside class="sidebar">
+
+      <div class="photo-wrap">
+        <div class="photo-blob">
+          <img src="img/<img src="Captura de pantalla 2026-03-17 175201.png" alt="Captura de pantalla 2026-03-17 175201" referrerPolicy="no-referrer" />" alt="Foto Andrey">
+        </div>
+      </div>
+
+      <div class="name-block">
+        <h1>Andrey Alexander<br>Paez Henao</h1>
+        <p class="subtitle">Tecnico en Desarrollo de Software</p>
+      </div>
+
+      <div class="section-side">
+        <h3>Contacto</h3>
+        <a class="contact-link" href="https://wa.me/573171971432" target="_blank">
+          <span class="contact-icon whatsapp">
+            <svg viewBox="0 0 32 32" fill="currentColor">
+              <path d="M16.003 3C9.374 3 4 8.374 4 15.003c0 2.138.57 4.243 1.652 6.088L4 29l8.11-1.629A12.94 12.94 0 0016.003 28C22.626 28 28 22.626 28 16.003 28 9.374 22.626 3 16.003 3zm6.07 18.076c-.258.726-1.504 1.387-2.063 1.47-.53.077-1.196.11-1.93-.12a17.7 17.7 0 01-1.748-.647c-3.074-1.329-5.082-4.44-5.235-4.645-.15-.207-1.237-1.647-1.237-3.14 0-1.493.782-2.228 1.059-2.53.277-.3.604-.376.806-.376.2 0 .4.002.576.01.185.009.432-.07.676.516.252.604.855 2.089.93 2.24.075.15.126.326.025.527-.1.2-.15.326-.3.502-.15.177-.315.395-.45.53-.15.15-.306.313-.131.614.175.3.78 1.286 1.675 2.083 1.15 1.026 2.12 1.343 2.42 1.493.3.15.476.126.652-.075.175-.2.75-.876.95-1.177.2-.3.4-.25.676-.15.277.1 1.757.83 2.058.98.3.15.5.226.576.35.075.126.075.726-.183 1.452z"/>
+            </svg>
+          </span>
+          <span>+57 3171971432</span>
+        </a>
+        <a class="contact-link" href="mailto:andreypaez851@gmail.com" target="_blank">
+          <span class="contact-icon gmail">
+            <svg viewBox="0 0 24 24" fill="currentColor">
+              <path d="M24 5.457v13.909c0 .904-.732 1.636-1.636 1.636h-3.819V11.73L12 16.64l-6.545-4.91v9.273H1.636A1.636 1.636 0 010 19.366V5.457c0-2.023 2.309-3.178 3.927-1.964L12 9.64l8.073-6.148C21.69 2.28 24 3.434 24 5.457z"/>
+            </svg>
+          </span>
+          <span>andreypaez851@gmail.com</span>
+        </a>
+      </div>
+
+      <div class="section-side">
+        <h3>Habilidades</h3>
+        <div class="skill-item">
+          <div class="skill-label"><span>HTML</span><span class="pct">75%</span></div>
+          <div class="bar"><div class="fill" data-width="75"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-label"><span>Python</span><span class="pct">65%</span></div>
+          <div class="bar"><div class="fill" data-width="65"></div></div>
+        </div>
+        <div class="skill-item">
+          <div class="skill-label"><span>Plataformas de IA</span><span class="pct">70%</span></div>
+          <div class="bar"><div class="fill" data-width="70"></div></div>
+        </div>
+      </div>
+
+      <div class="section-side">
+        <h3>Idiomas</h3>
+        <div class="skill-item">
+          <div class="skill-label"><span>Ingles - Basico</span><span class="pct">25%</span></div>
+          <div class="bar"><div class="fill" data-width="25"></div></div>
+        </div>
+      </div>
+
+    </aside>
+
+    <main class="main">
+
+      <section class="section-main">
+        <h2>Perfil Profesional</h2>
+        <div class="card">
+          <div class="card-body">
+            <p>Técnico en Desarrollo de Software con enfoque en eficiencia y velocidad de entrega. Combino bases sólidas de programación con herramientas de IA generativa —v0.dev, Bolt.new, Lovable— para acelerar el ciclo completo de desarrollo, desde el prototipado hasta el despliegue continuo en Vercel. Orientado a construir interfaces funcionales y modernas en tiempos significativamente menores al promedio convencional.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-main">
+        <h2>Experiencia</h2>
+        <div class="card">
+          <div class="card-body">
+            <h4>Practicante — Desarrollo de Software · SENA</h4>
+            <ul class="card-list">
+              <li>Creación de interfaces modernas y funcionales mediante flujos de trabajo asistidos por IA y despliegue continuo en plataformas cloud.</li>
+              <li>Desarrollo de lógica de backend y automatización de tareas con Python, optimizando procesos repetitivos y reduciendo tiempos operativos.</li>
+              <li>Reducción del tiempo de prototipado en un <strong>60 %</strong> mediante el uso estratégico de herramientas de IA generativa en el ciclo de desarrollo.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-main">
+        <h2>Habilidades Técnicas</h2>
+
+        <div class="card">
+          <div class="card-body">
+            <h4>Lenguajes</h4>
+            <div class="tag-group">
+              <span class="tag">HTML5</span>
+              <span class="tag">CSS3</span>
+              <span class="tag">JavaScript</span>
+              <span class="tag">Python</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h4>AI-Driven Development</h4>
+            <div class="tag-group">
+              <span class="tag tag-ai">v0.dev</span>
+              <span class="tag tag-ai">Bolt.new</span>
+              <span class="tag tag-ai">Lovable</span>
+              <span class="tag tag-ai">Cursor</span>
+              <span class="tag tag-ai">Prompt Engineering</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <h4>Herramientas &amp; Cloud</h4>
+            <div class="tag-group">
+              <span class="tag tag-cloud">Vercel</span>
+              <span class="tag tag-cloud">Git</span>
+              <span class="tag tag-cloud">GitHub</span>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="section-main">
+        <h2>Educación</h2>
+        <div class="card">
+          <div class="card-body">
+            <h4>Técnico en Desarrollo de Software</h4>
+            <p class="inst">SENA · En formación</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h4>Elaboración y Construcción de Prototipos Mecánicos</h4>
+            <p class="inst">SENA · Finalizado</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h4>Gestión de Procesos Biológicos</h4>
+            <p class="inst">SENA · Finalizado</p>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <div class="download-wrap">
+    <button class="download-btn" id="downloadBtn">
+      <span class="btn-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2">
+          <path d="M12 3v13M7 11l5 5 5-5"/>
+          <path d="M3 19h18"/>
+        </svg>
+      </span>
+      <span class="btn-text">Descargar Hoja de Vida</span>
+      <span class="btn-shine"></span>
+    </button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
